@@ -14,7 +14,7 @@ import os
 
 ROOT = "../data/"
 BATCH_SIZES = {'mnist': 128,
-               'fashion mnist': 400,
+               'fashion mnist': 400, 
                'cifar 10': 128,
                'celeba': 128} 
 

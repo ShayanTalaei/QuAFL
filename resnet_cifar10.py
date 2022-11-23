@@ -22,7 +22,7 @@ changes for the 10-class Cifar-10 dataset.
 This ResNet also has layer gates, to be able to dynamically remove layers.
 
 @inproceedings{DBLP:conf/cvpr/HeZRS16,
-  author    = {Kaiming He and
+  author    = {Kaiming He and 
                Xiangyu Zhang and
                Shaoqing Ren and
                Jian Sun},

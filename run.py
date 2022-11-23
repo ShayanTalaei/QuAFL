@@ -7,7 +7,7 @@ from trainer import *
 from math import log2
 
 def run(setups, dataset_name, log_period, **kwargs):
-    trainers = []
+    trainers = [] 
     logs = {} 
     for case in setups:
         logs[case] = {}

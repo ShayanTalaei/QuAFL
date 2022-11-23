@@ -2,7 +2,7 @@ import torch
 from copy import deepcopy
 from utils import *
 
-class Server:
+class Server: 
     
     server_interaction_time = 1
     

@@ -5,7 +5,7 @@ import numpy as np
 from model_manager import *
 from utils import *
         
-class Client:
+class Client: 
 
     server_in_averaging = True
     

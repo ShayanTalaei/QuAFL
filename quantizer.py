@@ -16,7 +16,7 @@ class Identity_Quantizer(Quantizer):
 
     def decode(self, x, key):
         return x
-        
+         
 class Lattice_Quantizer(Quantizer):
 
     def __init__(self, q, s):

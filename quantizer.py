@@ -19,7 +19,7 @@ class Identity_Quantizer(Quantizer):
          
 class Lattice_Quantizer(Quantizer):
 
-    def __init__(self, q, s):
+    def __init__(self, q, s): 
         self.q = q  ## quantization level
         self.s = s  ## hypercube side length
 

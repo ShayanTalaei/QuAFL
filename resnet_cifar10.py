@@ -24,7 +24,7 @@ This ResNet also has layer gates, to be able to dynamically remove layers.
 @inproceedings{DBLP:conf/cvpr/HeZRS16,
   author    = {Kaiming He and 
                Xiangyu Zhang and
-               Shaoqing Ren and
+               Shaoqing Ren and 
                Jian Sun},
   title     = {Deep Residual Learning for Image Recognition},
   booktitle = {{CVPR}},

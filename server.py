@@ -27,7 +27,7 @@ class Server:
             if(received_SD_count == 0):
                 return
 
-            current_SD = self.model.state_dict()
+            current_SD = self.model.state_dict() 
             p, q = server_model_ratio, 1 - server_model_ratio
             for key in current_SD:
                 temp_value = torch.zeros_like(current_SD[key]).float()

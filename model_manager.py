@@ -20,7 +20,7 @@ def get_criterion(dataset_name):
     return CRITERIONS[dataset_name]
 
 def get_optimizer(dataset_name): 
-    return OPTIMIZERS[dataset_name]
+    return OPTIMIZERS[dataset_name] 
 
 def get_model(dataset_name):
     if dataset_name == "mnist":

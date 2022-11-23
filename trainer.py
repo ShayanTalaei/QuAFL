@@ -21,7 +21,7 @@ from threading import Thread
 
 class Trainer:
     
-    SLOW_CLIENTS_RATIO = None
+    SLOW_CLIENTS_RATIO = None 
 
     def __init__(self, algorithm, dataset_name, client_count, train_sets_list, test_set, 
                  local_step, group_count, quantizer, initial_model, log_period, 

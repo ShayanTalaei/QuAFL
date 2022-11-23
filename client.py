@@ -19,7 +19,7 @@ class Client:
         
         ## For simulating time-based runs
         self.time = 0
-        self.mean_step_time = 2 if fast else 8
+        self.mean_step_time = 2 if fast else 8 
         self.next_step_time = self.get_run_time()
         
         ##Initialize based on the dataset

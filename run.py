@@ -24,7 +24,7 @@ def run(setups, dataset_name, log_period, **kwargs):
 
         ## Setting run parameters
         case_params = setups[case]
-        algorithm    = case_params['algorithm']
+        algorithm    = case_params['algorithm'] 
         client_count = case_params['client count']
         local_step   = case_params['local step']
         group_count  = case_params['group count']

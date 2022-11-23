@@ -33,5 +33,5 @@ def plot_trends(trends, x_axis, y_axis, start = 0, end = float('inf'), save_in =
     plt.legend()
     if name != None:
         plt.savefig(f'Results/{dataset_folder}/{name}_{y_axis}_{x_axis}.pdf') 
-    plt.show()
+    plt.show() 
      

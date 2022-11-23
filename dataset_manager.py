@@ -18,7 +18,7 @@ BATCH_SIZES = {'mnist': 128,
                'cifar 10': 128,
                'celeba': 128} 
 
-def get_batch_size(dataset_name):
+def get_batch_size(dataset_name): 
     return BATCH_SIZES[dataset_name]
 
 def get_datasets(dataset_name, **kwargs):

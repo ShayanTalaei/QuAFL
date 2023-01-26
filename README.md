@@ -1,5 +1,5 @@
 # QuAFL: Quantized Asynchronous Federated Learning
-### This repository contains the code for the paper "QuAFL: Federated Averaging Can Be Both Asynchronous and Communication-Efficient" (https://arxiv.org/abs/2206.10032).
+### This repository contains the code for the paper "QuAFL: Federated Averaging Can Be Both Asynchronous and Communication-Efficient".
 
 ### It is a time-based simulator for running different federated learning algorithms. 
 
